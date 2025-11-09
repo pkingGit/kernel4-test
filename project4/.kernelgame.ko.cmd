@@ -1,0 +1,1 @@
+cmd_/usr/src/project-4/project4-kernel/project4/kernelgame.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /usr/src/project-4/project4-kernel/project4/kernelgame.ko /usr/src/project-4/project4-kernel/project4/kernelgame.o /usr/src/project-4/project4-kernel/project4/kernelgame.mod.o;  true
