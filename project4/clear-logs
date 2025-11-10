@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Truncate log files containing kernel messages
+#sudo systemctl stop rsyslog.service
+sudo sh -c 'echo > /var/log/syslog'
+sudo sh -c 'echo > /var/log/kern.log'
+sudo sh -c 'echo > /var/log/messages'
+sudo dmesg -C
+#sudo systemctl start rsyslog.service
+#sudo journalctl --vacuum-size=200M
+

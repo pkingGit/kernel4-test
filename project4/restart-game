@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo rmmod kernelgame
+sudo insmod kernelgame.ko
+

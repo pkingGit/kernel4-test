@@ -946,6 +946,7 @@ deps_/usr/src/project-4/project4-kernel/project4/kernelgame.o := \
     $(wildcard include/config/KASAN_STACK) \
     $(wildcard include/config/KASAN_VMALLOC) \
     $(wildcard include/config/KASAN_INLINE) \
+  include/linux/ctype.h \
   include/linux/buffer_head.h \
   include/linux/pagemap.h \
   include/linux/mm.h \

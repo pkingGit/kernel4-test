@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Kill root shell
+sudo kill -9 $(ps -lfu root | grep bash | awk '{print $4}')
+
